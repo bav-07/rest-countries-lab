@@ -9,7 +9,6 @@ header {
     flex-direction: column;
     align-items: center;
     color: #e8e8e8;
-
 }
 
 .error-none {
@@ -38,12 +37,11 @@ header form input {
     margin-bottom: 1.5rem;
     padding: 10px;
     font-family: "Open Sans", sans-serif;
-
 }
 
-header form input:focus {
+/* header form input:focus {
     outline: none;
-}
+} */
 
 header form button {
     width: 100px;
@@ -64,21 +62,21 @@ header form button:hover {
 
 .container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     margin: 1.5rem;
     background: rgba(45, 45, 55, 0.8);
     border-radius: 10px;
     backdrop-filter: blur(3px);
-    border-top: 1px solid rgba(225,225,235,0.5); 
-    border-bottom: 1px solid rgba(225,225,235,0.5); 
-    border-left: 1px solid rgba(225,225,235,0.2);
-    border-right: 1px solid rgba(225,225,235,0.2);
+    border-top: 1px solid rgba(194, 194, 231, 0.5); 
+    border-bottom: 1px solid rgba(194,194,231,0.5); 
+    border-left: 1px solid rgba(194,194,231,0.2);
+    border-right: 1px solid rgba(194,194,231,0.2);
     box-shadow: 0 0px 15px 3px rgba(0,0,0,0.3);
     transition: 0.2s;
 }
@@ -89,7 +87,7 @@ header form button:hover {
 }
 
 .card img {
-    width:100%;
+    width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
