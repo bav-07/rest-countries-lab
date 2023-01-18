@@ -99,6 +99,7 @@ const getCountryByName = (countryName) => {
     fetch(`https://restcountries.com/v3.1/name/${countryName}`)
     .then((response) => {
         if (!response.ok) {
+            document.querySelector("#fetch-progress").textContent = "Error: invalid input";
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
         document.querySelector("#fetch-progress").textContent = "Fetching...";
